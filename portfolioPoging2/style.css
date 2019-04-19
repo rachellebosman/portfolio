@@ -305,6 +305,12 @@ button:hover {
         font-size: 10px; 
     } 
 
+    .contact {
+        margin: auto;
+        width: 50%;
+        
+    } 
+
 } 
 
 
