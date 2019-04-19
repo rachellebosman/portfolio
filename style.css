@@ -266,6 +266,12 @@ button:hover {
 
     h2 { font-size: 10px; }
 
+    #queerBeerVideo,#foundationVideo, #horecaVideo, #capVideo {
+        height: 100%;
+        width: 100%;   
+        }
+    
+
     .begin_boks{
         margin-top: -140px;
     }
@@ -286,6 +292,15 @@ button:hover {
 
     .begin_boks {
         width: 100%; 
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    a {
+        height: 50%; 
+        width: 50%; 
     }
 
 } 
