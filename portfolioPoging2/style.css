@@ -286,7 +286,7 @@ button:hover {
         font-size: 15px;  
     }
 
-    .caseTekst, button, h2{
+    .caseTekst, button, .tekstVictor{
         font-size: 20px; 
     }
 
@@ -294,7 +294,7 @@ button:hover {
         width: 100%; 
     }
 
-   
+
 
     a {
         height: 50%; 
@@ -302,7 +302,7 @@ button:hover {
     }
 
     .onderTitel{
-        font-size: 5px; 
+        font-size: 10px; 
     } 
 
     .contact {
