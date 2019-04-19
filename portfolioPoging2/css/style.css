@@ -2,7 +2,12 @@
     font-family: Courier, monospace;
     margin: 0;
     max-width: 100%;
-    
+}
+
+.mono {
+    font-family: Courier, monospace;
+    font-size: 25px;
+
 }
 
 .header {
@@ -20,9 +25,12 @@
     color: white;
     position: absolute;
     text-decoration: none;
-    margin-top: -5px;
     margin-left: 10px;
 }
+
+.projectBox {
+    margin: 20px; 
+} 
 
 .contact {
     text-align: center;
@@ -38,7 +46,7 @@
     text-align: right;
     color: white;
     padding-right: 50px;
-    padding-top: 15px;
+    
 }
 
 .linksheader {
@@ -66,7 +74,7 @@
 
 h1 {
     font-family: 'Pacifico', cursive;
-    font-size: 80px;
+    font-size: 85px;
     color: #ff75f8;
     
 }

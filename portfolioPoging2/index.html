@@ -5,27 +5,51 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rachelle Bosman</title>
+    <link href="https://fonts.googleapis.com/css?family=Concert+One|Pacifico|Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
     <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/app.css">
+    
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+
+      <div class="header"> 
+          <a class="logo" href="index.html"> RB </a> 
+          <div class="links">
+              <h3>
+                  <a class="linksheader mono" href="#link1"> <b> DEVELOPMENT /</b> </a> 
+                  <a class="linksheader mono" href="#link2"> <b> DESIGN /</b></a> 
+                  <a class="linksheader mono" href="#link3"> <b> CONTACT </b> </a>
+              </h3> 
+          </div>
+      </div>
+  
+      <video autoplay muted loop id="myVideo">
+          <source src="videos/programmeren.mp4" type="video/mp4">
+      </video>
+  
+      <div class="begin_boks"> 
+          <h1> Rachelle Bosman </h1>
+          <h2 class="onderTitel mono"> <b>  Developer / Designer / Coffee addict. </b> </h2> 
+      </div>
+  
+       <a name="link1"></a>
+  
+      <div class="mijnProjectenTitel"> Development </div>
    
 
     <div class="grid container"> 
       <div class="grid-x grid-padding-x small-up-1 medium-up-2 large-up-2" >
-
         <div class="cell">  
-            <div class=""> 
+            <div class="projectBox"> 
+                <br><h2><b>  cAPPuccino </b></h2> 
                 <video muted loop id="capVideo">
                     <source src="videos/cappuccino.mp4" type="video/mp4">
                 </video>
-        
                 <div class="caseTekst"> 
-                    <br><br><h2><b>  cAPPuccino </b></h2><br> 
                     <p> Applicatie waarmee je leert cappuccino's te maken en je eigen foto's op kan slaan in de gallerij van de app. 
                         Gemaakt met behulp van Android Studio en gebruik gemaakt van een SQLite database.   </p>
-                    <br> 
+                
                     <button id="playCap" onclick="myFunction0()">▶️ Start animatie </button> <br> 
                     <a class="link_case" href="https://www.youtube.com/watch?v=UQIAlIgzBsc"> 📄  YouTube  (GitHub coming soon) </a> 
                     </div>
@@ -33,16 +57,14 @@
         </div> 
 
         <div class="cell" > 
-            <div class=""> 
+            <div class="projectBox"> 
+                <br><h2><b>  QueerBeer </b></h2>
                 <video muted loop id="queerBeerVideo">
                     <source src="videos/QueerBeer.mp4" type="video/mp4">
                 </video>
-        
                 <div class="caseTekst"> 
-                   <br><h2><b>  QueerBeer </b></h2><br> 
                     <p>Webshop voor een zelfbedacht bier concept, gemaakt met behulp van VueJS. 
                     Extra focus gelegd op een gebruiks vriendelijk ontwerp & een CSS animatie background.  </p>
-                    <br> 
                     <button id="playQueerBeer" onclick="myFunction1()">▶️ Start animatie </button> <br> 
                     <a class="link_case" href="https://github.com/rachellebosman/QueerBeer"> 📄  Github </a> 
                     </div>
@@ -50,41 +72,33 @@
         </div>
 
         <div class="cell" > 
-            <div class=""> 
+            <div class="projectBox"> 
+                <br> <h2> <b>Foundation Tutorial  </b>   </h2>
                 <video muted loop id="foundationVideo">
                     <source src="videos/foundationFramework.mp4" type="video/mp4">
                 </video>
-        
                 <div class="caseTekst"> 
-                    <br> <h2> Foundation Tutorial  </h2>
-                    <br>
                     <p> Uit eigen onderzoek naar CSS frameworks is gebleken dat ik Foundation erg prettig vond om mee te werken. Voor dit framework heb ik een responsive tutorial website gemaakt. </p>
-                    <br> 
+                
                     <button id="playFoundation" onclick="myFunction2()"> ▶️ Start animatie </button> <br>
                     <a type="button" class="link_case" href="https://github.com/rachellebosman/QueerBeer"> 📄 Github </a>      
                     </div>    
-              
             </div>      
         </div>
 
         <div class="cell" > 
-            <div class=""> 
+            <div class="projectBox"> 
+                <br> <h2> <b>  Het horeca klaagmuurtje </b> </h2>
                 <video muted loop id="horecaVideo">
                     <source src="videos/HorecaKlaagMuurtje.mp4" type="video/mp4">
                 </video>
-            
                 <div class="caseTekst"> 
-                    <br> <h2> Het horeca klaagmuurtje </h2>
-                    <br>
-                    <p> Website met behulp van Laravel (PHP) gemaakt waarin gebruikers en admins inloggen en berichten met elkaar kunnen uitwisselen en beheren.</p></br>
+                    <p> Website met behulp van Laravel (PHP) gemaakt waarin gebruikers en admins inloggen en berichten met elkaar kunnen uitwisselen en beheren.</p>
                     <button id="playHoreca" onclick="myFunction3()">▶️ Start animatie </button> <br>
                     <a class="link_case" href="https://github.com/rachellebosman/LaravelProject"> 📄 GITHUB </a> 
-                    </div>    
-           
+                    </div>               
             </div>      
         </div>
-
-       
 
       </div>
 
