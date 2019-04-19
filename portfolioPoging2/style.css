@@ -250,10 +250,6 @@ button:hover {
 }
 
 @media only screen and (max-width: 800px) {
-    body{
-        background-color: red;
-    }
-
     .begin_boks{
         margin-top: -80px;
     }
@@ -282,10 +278,6 @@ button:hover {
     .logo {
         margin-top: 10px;
         font-size: 15px;  
-    }
-
-    body{
-        background-color: purple;
     }
 
     .caseTekst{
