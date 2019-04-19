@@ -294,14 +294,16 @@ button:hover {
         width: 100%; 
     }
 
-    .contact {
-        text-align: center;
-    }
+   
 
     a {
         height: 50%; 
         width: 50%; 
     }
+
+    .onderTitel{
+        font-size: 10px; 
+    } 
 
 } 
 
