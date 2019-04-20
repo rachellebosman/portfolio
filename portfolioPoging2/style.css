@@ -2,7 +2,12 @@
     font-family: Courier, monospace;
     margin: 0;
     max-width: 100%;
-    
+}
+
+.mono {
+    font-family: Courier, monospace;
+    font-size: 25px;
+
 }
 
 .header {
@@ -20,9 +25,12 @@
     color: white;
     position: absolute;
     text-decoration: none;
-    margin-top: -5px;
     margin-left: 10px;
 }
+
+.projectBox {
+    margin: 20px; 
+} 
 
 .contact {
     text-align: center;
@@ -38,7 +46,7 @@
     text-align: right;
     color: white;
     padding-right: 50px;
-    padding-top: 15px;
+    
 }
 
 .linksheader {
@@ -66,10 +74,12 @@
 
 h1 {
     font-family: 'Pacifico', cursive;
-    font-size: 80px;
+    font-size: 85px;
     color: #ff75f8;
     
 }
+
+
 
 .intro_tekst{
     margin-top: 100px;
@@ -96,7 +106,6 @@ h1 {
     font-family: 'Pacifico', cursive;
     text-align: center;
     font-size: 50px;
-    margin-top: 1300px;
     background-color: lightgrey;
     color: white; 
 } 
@@ -158,9 +167,8 @@ h1 {
 
 
 #queerBeerVideo,#foundationVideo, #horecaVideo, #capVideo {
-    height: 50%;
-    width: 50%; 
-    float: left; 
+    height: 80%;
+    width: 80%; 
     padding: 10px;
     padding-right: 20px;
 }
@@ -173,20 +181,6 @@ h1 {
     margin-left: 20%;
     margin-right: 20%;  
 } 
-
-.headerVictor {
-    background-color: #76B4E3;
-}
-
-.victorImgHeader{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30%;
-    width: 30%;
-
-}
-
 
 .caseTekst{
     padding: 20px;
@@ -237,6 +231,10 @@ button:hover {
     margin-bottom: 30px;
     }
 
+    .linksheader{
+        font-size: 15px; 
+    }
+
     .beginCase {
         margin-bottom: 0px;
     }
@@ -264,7 +262,7 @@ button:hover {
 
     h1{ font-size: 30px; }
 
-    h2 { font-size: 10px; }
+    h2 { font-size: 20px; }
 
     #queerBeerVideo,#foundationVideo, #horecaVideo, #capVideo {
         height: 100%;
@@ -278,12 +276,14 @@ button:hover {
 
     .links{
         font-size: 10px; 
+        
 
     }
 
     .logo {
         margin-top: 10px;
         font-size: 15px;  
+        text-align: left;
     }
 
     .caseTekst, button, .tekstVictor{
@@ -312,5 +312,13 @@ button:hover {
     } 
 
 } 
+
+@media only screen and (max-width: 400px) {
+    .links{
+        margin-top: 10px; 
+        
+
+    }
+ } 
 
 
