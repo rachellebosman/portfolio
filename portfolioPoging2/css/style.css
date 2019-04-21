@@ -79,6 +79,8 @@ h1 {
     
 }
 
+
+
 .intro_tekst{
     margin-top: 100px;
     position: absolute;
@@ -104,7 +106,6 @@ h1 {
     font-family: 'Pacifico', cursive;
     text-align: center;
     font-size: 50px;
-    margin-top: 1300px;
     background-color: lightgrey;
     color: white; 
 } 
@@ -181,20 +182,6 @@ h1 {
     margin-right: 20%;  
 } 
 
-.headerVictor {
-    background-color: #76B4E3;
-}
-
-.victorImgHeader{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 30%;
-    width: 30%;
-
-}
-
-
 .caseTekst{
     padding: 20px;
 }
@@ -244,6 +231,10 @@ button:hover {
     margin-bottom: 30px;
     }
 
+    .linksheader{
+        font-size: 15px; 
+    }
+
     .beginCase {
         margin-bottom: 0px;
     }
@@ -271,7 +262,7 @@ button:hover {
 
     h1{ font-size: 30px; }
 
-    h2 { font-size: 10px; }
+    h2 { font-size: 20px; }
 
     #queerBeerVideo,#foundationVideo, #horecaVideo, #capVideo {
         height: 100%;
@@ -285,12 +276,14 @@ button:hover {
 
     .links{
         font-size: 10px; 
+        
 
     }
 
     .logo {
         margin-top: 10px;
         font-size: 15px;  
+        text-align: left;
     }
 
     .caseTekst, button, .tekstVictor{
@@ -312,12 +305,14 @@ button:hover {
         font-size: 10px; 
     } 
 
-    .contact {
-        margin: auto;
-        width: 50%;
-        
-    } 
-
 } 
+
+@media only screen and (max-width: 400px) {
+    .links{
+        margin-top: 10px; 
+        
+
+    }
+ } 
 
 
