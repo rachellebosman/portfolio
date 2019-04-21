@@ -307,13 +307,17 @@ button:hover {
 
 @media only screen and (max-width: 400px) {
 
+    body {
+        background-color: pink;
+    } 
+
     .links{
         margin-top: 8px;
         margin-right: -20px;  
     }
 
     .begin_boks{
-        margin-top: -230px; 
+        margin-top: -150px; 
     }
 
     .email {
@@ -321,8 +325,8 @@ button:hover {
     }
 
     .tekstVictor, .titelVictor{
-        margin-left: -10%;
-        margin-right: -10%;
+        margin-left: 0%;
+        margin-right: -20%;
     }
     
     .linksheader{
