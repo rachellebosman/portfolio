@@ -307,9 +307,9 @@ button:hover {
 
 @media only screen and (max-width: 400px) {
 
-    body {
-        background-color: pink;
-    } 
+    .logo{
+        display: none;     
+    }
 
     .links{
         margin-top: 8px;
