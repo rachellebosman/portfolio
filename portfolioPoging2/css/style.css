@@ -310,6 +310,12 @@ button:hover {
 
 @media only screen and (max-width: 400px) {
 
+    
+    .onderTitel{
+        font-size: 8px; 
+    } 
+
+
     .logo{
         display: none;     
     }
